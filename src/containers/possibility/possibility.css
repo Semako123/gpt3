@@ -1,0 +1,61 @@
+.gpt3__possibility {
+    display: flex;
+}
+
+.gpt3__possibility-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.gpt3__possibility-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.gpt3__possibility-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    font-family: var(--font-family);
+}
+
+.gpt3__possibility-content h4 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #71e5ff;
+}
+
+.gpt3__possibility-content h4:last-child {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-subtext);
+}
+
+.gpt3__possibility-content h1 {
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 45px;
+    margin: 1rem 0;
+}
+
+.gpt3__possibility-content p {
+    color: var(--color-text);
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width:1000px) {
+    .gpt3__possibility{
+        flex-direction: column;
+    }
+    .gpt3__possibility-image{
+        margin: 1rem 0;
+    }
+    .gpt3__possibility-content{
+        margin-top: 2rem;
+    }
+}
