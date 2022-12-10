@@ -1,0 +1,114 @@
+.gpt3__footer {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-footer);
+    font-family: var(--font-family);
+
+}
+
+.gpt3__footer-heading {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.gpt3__footer-heading h1 {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 70px;
+}
+
+.gpt3__footer-btn {
+    display: flex;
+    border: 1px solid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.gpt3__footer-btn p {
+    word-spacing: 2px;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.gpt3__footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gpt3__footer-links-div {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0.7rem;
+    width: 250px;
+}
+
+.gpt3__footer-links_logo {
+    margin: 1rem;
+    width: 300px;
+}
+
+.gpt3__footer-links_logo img {
+    width: 118px;
+    height: 30px;
+    margin-bottom: 1rem;
+}
+
+.gpt3__footer-links_logo p {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.gpt3__footer-links-div h4 {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 1rem;
+}
+
+.gpt3__footer-links-div p {
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
+.gpt3__footer-copyright {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.gpt3__footer-copyright p {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+@media screen and (max-width:850px) {
+    .gpt3__footer-heading h1 {
+        font-size: 38px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .gpt3__footer-heading h1 {
+        font-size: 27px;
+        line-height: 38px;
+    }
+
+    .gpt3__footer-links div {
+        margin: 1rem 0;
+    }
+
+    .gpt3__footer-btn {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}

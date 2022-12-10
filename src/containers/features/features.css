@@ -29,6 +29,11 @@
         flex-direction: column;
     }
 
+    .gpt3__features-heading h1 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
     .gpt3__features-heading {
         max-width: 100%;
     }
@@ -40,8 +45,8 @@
 
 @media screen and (max-width:550px) {
     .gpt3__features-heading h1 {
-        font-size: 28px;
-        line-height: 38px;
+        font-size: 20px;
+        line-height: 28px;
     }
 
 }
